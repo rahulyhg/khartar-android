@@ -1,0 +1,88 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Fragment.TirthDetailFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:orientation="vertical">
+
+      <!--  <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:text="@string/detail_address"
+            android:textColor="@color/colorPrimary"
+            android:textSize="12sp" />-->
+
+        <TextView
+            android:id="@+id/tirth_tv_address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:paddingTop="20dp"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:paddingBottom="15dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="15sp"
+            android:textStyle="normal" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- <TextView
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_marginBottom="5dp"
+             android:text="@string/detail_mobile"
+             android:textColor="@color/colorPrimary"
+             android:textSize="12sp" />-->
+
+        <TextView
+            android:id="@+id/tirth_tv_mobile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:paddingBottom="15dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="15sp"
+            android:textStyle="normal" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- <TextView
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_marginBottom="5dp"
+             android:text="@string/detail_mobile"
+             android:textColor="@color/colorPrimary"
+             android:textSize="12sp" />-->
+
+        <TextView
+            android:id="@+id/tirth_tv_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:paddingBottom="15dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="15sp"
+            android:textStyle="normal" />
+
+    </LinearLayout>
+</LinearLayout>

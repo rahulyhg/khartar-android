@@ -1,0 +1,101 @@
+<resources>
+
+    <!-- App Name -->
+
+    <string name="app_name">Khartar</string>
+
+
+    //edit Text hint
+    <string name="fill_username">Please fill in your username</string>
+    <string name="fill_email_id">Please fill in your Email Id</string>
+    <string name="fill_password">Please fill in your Password</string>
+    <string name="fill_confirm_password">Please fill in your Password Confirm</string>
+    <string name="fill_mobile">Please fill in your valid Number</string>
+    <string name="invalid_mobile">Invalid Mobile Number</string>
+    <string name="invalid_email">Invalid Email Address</string>
+    <string name="try_Again">Try Again...</string>
+    <string name="title_activity_youtube_video">Youtube Video</string>
+    <string name="youtube_video_list">Youtube Video List Empty</string>
+    <string name="detail_swastik">卐</string>
+
+    <!-- Activity Title -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_event_details">Event Details</string>
+    <string name="title_activity_panchang_detail">पंचांग विस्तार</string>
+    <string name="title_activity_sadhu_sadhvi_detail">SadhuSadhviDetail</string>
+    <string name="title_activity_dada_wadi__detail">Map</string>
+    <string name="title_activity_forget__password__confirm">Forget_Password_Confirm</string>
+    <string name="title_activity_stavan_audio">Audio</string>
+    <string name="title_activity_zoom_image">Gallery</string>
+    <string name="title_activity_search">Search</string>
+    <string name="title_activity_play_audio">PlayAudio</string>
+    <string name="title_activity_dashboard_activity">Dashboard_activity</string>
+    <string name="title_activity_detail_scrolling">DetailScrollingActivity</string>
+    <string name="title_activity_sign__up">Sign_Up</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_forget_password">ForgetPassword</string>
+    <string name="title_activity_album">Album</string>
+    <string name="title_activity_full_detail">साधु विवरण</string>
+    <string name="title_activity_stavan_player">StavanPlayerActivity</string>
+
+    <!-- Navigation Drawer Menu Item-->
+
+    <string name="navigation_menu_home">होम</string>
+    <string name="navigation_menu_sadhu">साधु</string>
+    <string name="navigation_menu_sadhvi">साध्वी</string>
+    <string name="navigation_menu_panchang">पंचांग</string>
+    <string name="navigation_menu_pachkhan">पच्चक्खाण</string>
+    <string name="navigation_menu_dadawadi">दादावाड़ी</string>
+    <string name="navigation_menu_tirth">तीर्थ</string>
+    <string name="navigation_menu_stavan">स्तवन</string>
+
+    <string name="navigation_menu_panchakhan">पच्चक्खाण</string>
+    <!--<string name="navigation_menu_panchakhan">पचखां</string>-->
+    <!--<string name="navigation_menu_panchakhan">कैलेंडर</string>-->
+
+    <!--<string name="navigation_menu_stotra">स्तोत्रा</string>-->
+   <!-- <string name="navigation_menu_stotra">स्रोता</string>-->
+    <string name="navigation_menu_stotra">स्तोत्र</string>
+
+    <string name="navigation_menu_samadhan">समाधान</string>
+   <!-- <string name="navigation_menu_youtube">Youtube playlist</string>-->
+    <string name="navigation_menu_youtube">यूट्यूब प्लेलिस्ट</string>
+    <string name="navigation_menu_events">कार्यक्रम</string>
+    <!-- <string name="navigation_menu_events">आयोजन</string>-->
+    <string name="navigation_menu_gallery">चित्र संग्रह</string>
+    <!--<string name="navigation_menu_gallery">चित्र प्रदर्शनी</string>-->
+    <string name="navigation_menu_logout">लॉगआउट</string>
+
+    <!-- Navigation Drawer -->
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <!-- Setting Action -->
+
+    <string name="action_settings">Settings</string>
+
+    <!-- Activity TextView -->
+
+    <!--<string name="detail_last_seen">अंतिम बार देखा गया</string>-->
+    <string name="detail_last_seen">Last Seen at</string>
+   <!-- <string name="detail_last_seen">Last Seen at and Location Seen at</string>-->
+
+    <string name="detail_current_location">वर्तमान स्थान</string>
+    <string name="detail_no_proper_location">कोई उचित पता नहीं</string>
+    <string name="detail_no_current_location">वर्तमान स्थान नहीं मालूम</string>
+    <string name="detail_no_current_locations">वर्तमान स्थान नहीं मालूम है|</string>
+
+    <string name="detail_diksha_date">दीक्षा की तिथि</string>
+    <string name="detail_name">नाम</string>
+    <string name="detail_address">पता</string>
+   <string name="detail_group_name">साधु/साध्वी मंडल</string>
+    <!--<string name="detail_group_name">समूह का नाम</string>-->
+    <string name="detail_mobile_number">संपर्क सूत्र</string>
+    <string name="detail_mobile">मोबाइल नंबर</string>
+    <string name="detail_email_address">ईमेल</string>
+
+    <!-- Activity TextView -->
+
+
+</resources>

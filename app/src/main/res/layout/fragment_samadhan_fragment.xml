@@ -1,0 +1,33 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    tools:context=".Fragment.SamadhanFragment"
+    android:orientation="vertical">
+    <LinearLayout
+        android:id="@+id/samadhan_lay"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <EditText
+        android:id="@+id/sam_ed"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@drawable/forgot_password"
+        android:gravity="start"
+        android:padding="10dp"
+        android:hint="Write here..."
+        android:textAppearance="@android:style/TextAppearance.Small" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Submit"
+        android:id="@+id/sam_submit"
+        android:textAllCaps="false"
+        android:background="@drawable/forgate_text"
+        android:textColor="#7D7D7D" />
+    </LinearLayout>
+</ScrollView>

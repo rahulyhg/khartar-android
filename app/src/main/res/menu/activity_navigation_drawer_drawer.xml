@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/today"
+            android:checked="true"
+            android:icon="@mipmap/home_icon"
+            android:title="@string/navigation_menu_home" />
+
+        <item
+            android:id="@+id/sadu_sadhvi"
+            android:icon="@mipmap/sadhu"
+            android:title="@string/navigation_menu_sadhu" />
+
+        <item
+            android:id="@+id/sadhvi"
+            android:icon="@mipmap/sadhu"
+            android:title="@string/navigation_menu_sadhvi" />
+
+        <item
+            android:id="@+id/panchag"
+            android:icon="@mipmap/event"
+            android:title="@string/navigation_menu_panchang" />
+
+        <item
+            android:id="@+id/address"
+            android:icon="@mipmap/dadawadi_temple_icon"
+            android:title="@string/navigation_menu_dadawadi" />
+
+        <item
+            android:id="@+id/tirth"
+            android:icon="@mipmap/tirth_temple_icon"
+            android:title="@string/navigation_menu_tirth" />
+
+        <item
+            android:id="@+id/stavansangrah"
+            android:icon="@mipmap/nav_music"
+            android:title="@string/navigation_menu_stavan" />
+
+        <item
+            android:id="@+id/pachakhan"
+            android:icon="@mipmap/pachkhan_icon"
+            android:title="@string/navigation_menu_panchakhan" />
+
+        <item
+            android:id="@+id/stotra"
+            android:icon="@mipmap/pachg"
+            android:title="@string/navigation_menu_stotra" />
+
+        <item
+            android:id="@+id/events"
+            android:icon="@mipmap/day_icon"
+            android:title="@string/navigation_menu_events" />
+        <item
+            android:id="@+id/photos"
+            android:icon="@mipmap/photo"
+            android:title="@string/navigation_menu_gallery" />
+
+        <item
+            android:id="@+id/youtube"
+            android:icon="@mipmap/youtube_play_icon"
+            android:title="@string/navigation_menu_youtube" />
+        <item
+            android:id="@+id/chating"
+            android:icon="@mipmap/chat"
+            android:title="@string/navigation_menu_samadhan" />
+        <item
+            android:id="@+id/sadh_logout"
+            android:icon="@mipmap/logout"
+            android:title="@string/navigation_menu_logout" />
+    </group>
+
+</menu>

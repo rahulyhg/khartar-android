@@ -1,0 +1,44 @@
+{
+  "project_info": {
+    "project_number": "397099976232",
+    "project_id": "khartar-152011"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:397099976232:android:e1aa09c0b3a90b60",
+        "android_client_info": {
+          "package_name": "com.vardhamaninfo.khartargaccha"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "397099976232-0ioi72o07g5v9vmj7lemdiab3503trkv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.vardhamaninfo.khartargaccha",
+            "certificate_hash": "D8D4B310BDFF29B080E1F61285A54BF7CAF43EE9"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCU-F2zHwT6rHXdYHopyIfwxHFkQcL5tTU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

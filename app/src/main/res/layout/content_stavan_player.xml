@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/theme_color_4"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".Activity.StavanPlayerActivity"
+    tools:showIn="@layout/activity_stavan_player">
+
+    <SeekBar
+        android:id="@+id/seekBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/seekBar"
+        android:layout_centerHorizontal="true"
+        android:src="@android:drawable/ic_media_play" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical"
+        android:scrollbars="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@color/colorPrimary"
+            android:layout_gravity="center_horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Lyrics" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center_horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="sadf  sfdg sfd gdfs gdsf g dsf gsd gfsdg fg df sggdsf gdsf gfd gsd fg dsf gsdf gdf gsg sdf asf sdaf sdf sad fdf sdafsd fsda fsdaf dsa fds af sda f sdaf dsa fdsa df fd saf ds fdsf a fdsa  fsa sad fasd fas  sdfdsfds" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>
